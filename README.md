@@ -9,3 +9,5 @@ Therefore, the confidence level is introduced where VaR can be calculated using 
 
 In the Monte Carlo simulation we have several realization of our investment using geometric random walks, then we sort the underlying realisations. We are after the percentile that we have defined using the confidence level
 The difference between initial investment and the one at the percentile is the value of risk we are looking for. 
+
+I have used Pandas to caluclate the VaR instead of Python due to ease of use. However these can be simulated in Python using OOP
