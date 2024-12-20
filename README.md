@@ -1,4 +1,4 @@
-Value at Risk (VaR) in finance basically describes the tradfe off between risk and return.
+Value at Risk (VaR) in finance basically describes the trade off between risk and return.
 
 Though we have implementations such as std, variance, beta value to consider risk, these are not probability distribution.
 
