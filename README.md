@@ -10,4 +10,6 @@ Therefore, the confidence level is introduced where VaR can be calculated using 
 In the Monte Carlo simulation we have several realization of our investment using geometric random walks, then we sort the underlying realisations. We are after the percentile that we have defined using the confidence level
 The difference between initial investment and the one at the percentile is the value of risk we are looking for. 
 
+As you can see from both approaches, we have come to a similar answer of around 25k. This means that we have 95% confidence that we will loose around 25k if we invest 1,000,000 in Citi stock given the historical data between the given dates (2014-2017)
+
 I have used Pandas to caluclate the VaR instead of Python due to ease of use. However these can be simulated in Python using OOP
